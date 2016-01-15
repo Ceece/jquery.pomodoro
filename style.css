@@ -1,0 +1,50 @@
+@import url(http://fonts.googleapis.com/css?family=Oswald);
+
+#pomodoro {
+    text-align: center;
+    cursor: pointer;
+    margin-top: 20px;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+
+#pomodoro span {
+    font-size: 36px;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    font-family: Oswald;
+}
+
+.section-outer {
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+
+.section-inner {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.box {
+    width: 250px;
+    background-color: beige;
+    margin: 0 auto;
+    height: 175px;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    font-weight: bold;
+}
